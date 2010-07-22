@@ -5,6 +5,9 @@
 //  Created by micah on 6/13/10.
 //  Copyright __MyCompanyName__ 2010. All rights reserved.
 //
+//  Cloned by Oscar Koeroo on 7/17/10.
+//  Copyright 2010 EGI-InSpire. All rights reserved.
+//
 
 #import "TheNextHOPEAppDelegate.h"
 

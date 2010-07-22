@@ -5,6 +5,9 @@
 //  Created by micah on 6/23/10.
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
+//  Cloned by Oscar Koeroo on 7/17/10.
+//  Copyright 2010 EGI-InSpire. All rights reserved.
+//
 
 #import "JSInterface.h"
 
@@ -32,7 +35,7 @@
 
 - (void) alert:(NSString*)message {
 	UIAlertView* alert = [[UIAlertView alloc]
-						  initWithTitle:@"The Next HOPE"
+						  initWithTitle:@"EGI Technical Forum 2010"
 						  message:message 
 						  delegate:nil
 						  cancelButtonTitle:@"Ok" 
