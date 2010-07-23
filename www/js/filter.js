@@ -16,9 +16,11 @@ var filter = {
     display : function() {
         var html = '';
         html = '<p id="filter">';
+        html += '<span id="day-tuesday" filter="tuesday">Tuesday</span> ';		
+        html += '<span id="day-wednesday" filter="wednesday">Wednesday</span> ';		
+        html += '<span id="day-thursday" filter="thursday">Thursday</span> ';		
         html += '<span id="day-friday" filter="friday">Friday</span> ';
         html += '<span id="day-saturday" filter="saturday">Saturday</span> ';
-        html += '<span id="day-sunday" filter="sunday">Sunday</span> ';
         html += '<span id="day-all" filter="all">All</span>';
         html += '</p>';
         if (filter.query) {
@@ -38,7 +40,7 @@ var filter = {
         $("#day-"+filter.filter).addClass('current');
         
         // set callbacks
-        var days = ['friday', 'saturday', 'sunday', 'all'];
+        var days = ['tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all'];
         for(day in days) {
             $("#day-"+days[day]).bind('click', function() {
                 $("#day-"+filter.filter).removeClass('current');
