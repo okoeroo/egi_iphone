@@ -1,13 +1,9 @@
-This is the iPhone app for the Hackers on Planet Earth conference for 2010. It's designed to display the HOPE schedule and make it easy to keep track of talks you want to attend.
+This is the iPhone app for the EGI Technical Forum 2010. It's designed to display the EGI TF 2010 schedule and make it easy to keep track of talks you want to attend.
 
-Most of the logic happens in a UIWebView, so it's written in Javascript, HTML, and CSS. The rest is written in Objective-C with the iPhone SDK.
 
-Data gets pulled from a server running this web application:
-http://github.com/micahflee/hope_schedule
 
-Android version of this app is here:
-http://github.com/micahflee/hope_android
 
-The Next HOPE conference:
-http://www.thenexthope.org/
+Acknowledgements:
+
+I'm not making it a secret that this iPhone app is cloned from the TheNextHOPE app, in fact I'm trying to keep as much HOPE-ness hidden into the code. People who've been using this app for HOPE must be able to see the similarities. I've also cloned this app through GitHub to make the fork explicitly advertised on GitHub where the code originates from. I'd like to state a personal thank you to Micah Lee for making this possible.
 
