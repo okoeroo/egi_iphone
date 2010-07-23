@@ -329,7 +329,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FB8E642A11F9702600EA7FE5</string>
+										<string>FB8E644A11F976AC00EA7FE5</string>
 										<key>history</key>
 										<array>
 											<string>FBE8653C11F4331B0071F354</string>
@@ -433,7 +433,7 @@
 											<string>FB8E63FD11F96AB100EA7FE5</string>
 											<string>FB8E641D11F96F7500EA7FE5</string>
 											<string>FB8E641E11F96F7500EA7FE5</string>
-											<string>FB8E641F11F96F7500EA7FE5</string>
+											<string>FB8E642F11F974F900EA7FE5</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -445,14 +445,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1156, 599}}</string>
+								<string>{{0, 0}, {1156, 594}}</string>
 								<key>RubberWindowFrame</key>
 								<string>480 359 1440 819 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>599pt</string>
+							<string>594pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -465,14 +465,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 604}, {1156, 174}}</string>
+								<string>{{0, 599}, {1156, 179}}</string>
 								<key>RubberWindowFrame</key>
 								<string>480 359 1440 819 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>174pt</string>
+							<string>179pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -491,9 +491,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FB8E63B711F963DE00EA7FE5</string>
+				<string>FB8E643A11F9767800EA7FE5</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>FB8E63B811F963DE00EA7FE5</string>
+				<string>FB8E643B11F9767800EA7FE5</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -631,7 +631,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>FBE7BEAD11F42E920082682C</string>
@@ -676,8 +675,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -717,7 +714,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>FBE7BEAD11F42E920082682C</string>
-				<string>FB8E63B911F963DE00EA7FE5</string>
+				<string>FB8E643C11F9767800EA7FE5</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -839,13 +836,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>FB8E63BA11F963DE00EA7FE5</string>
+				<string>FB8E643D11F9767800EA7FE5</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>FB8E63BB11F963DE00EA7FE5</string>
-				<string>FB8E63BC11F963DE00EA7FE5</string>
-				<string>FB8E63BD11F963DE00EA7FE5</string>
-				<string>FB8E63BE11F963DE00EA7FE5</string>
-				<string>FB8E63BF11F963DE00EA7FE5</string>
+				<string>FB8E643E11F9767800EA7FE5</string>
+				<string>FB8E643F11F9767800EA7FE5</string>
+				<string>FB8E644011F9767800EA7FE5</string>
+				<string>FB8E644111F9767800EA7FE5</string>
+				<string>FB8E644211F9767800EA7FE5</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -999,7 +996,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>FB8E63C011F963DE00EA7FE5</string>
+				<string>FB8E644311F9767800EA7FE5</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
