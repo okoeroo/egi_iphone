@@ -35,13 +35,13 @@ h1 {
     font-size: 19px;
     padding: 5px 0 0 0;
     margin: 0;
-    color: #FFD02F;
+    color: #00AAD2;
 }
 
 p.only {
     margin: 20px auto 15px auto;
     padding: 20px;
-    background-color: #000000;
+    background-color: #101010;
     -webkit-border-radius: 20px;
     opacity: 0.8;
     text-align: center;
@@ -66,9 +66,9 @@ p#force-download {
     font-weight: bold;
     font-size: 18px;
     font-size: arial;
-    color: #396c2f;
-    border-bottom: 2px solid #FFD02F;
-    border-top: 2px solid #FFD02F;
+    color: #EECBA4;
+    border-bottom: 2px solid #B66902;
+    border-top: 2px solid #B66902;
     padding: 5px 0;
 }
 
@@ -76,7 +76,7 @@ p#force-download {
 }
 
 #filter .current {
-    color: #49b733;
+    color: #7B5229;
 }
 
 .talk {
@@ -148,7 +148,7 @@ p#force-download {
 }
 
 #query {
-    color: #FFD02F;
+    color: #7B5229;
     text-align: center;
 }
 
