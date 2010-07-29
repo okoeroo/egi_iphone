@@ -304,7 +304,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = "~/projects/thenexthope/hope_iphone/Entitlements.plist";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Oscar Koeroo (C8KVXS8FN9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Oscar Koeroo (C8KVXS8FN9)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -321,13 +323,13 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_ENTITLEMENTS = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Micah Lee";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Oscar Koeroo (C8KVXS8FN9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Oscar Koeroo (C8KVXS8FN9)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EGI TF 2010_Prefix.pch";
 				INFOPLIST_FILE = "EGI TF 2010-Info.plist";
 				PRODUCT_NAME = "EGI TF 2010";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FD3C489F-EFEC-45A3-8914-A554DC36DE67";
 				SDKROOT = iphoneos3.0;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -337,13 +339,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Micah Lee";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Oscar Koeroo (C8KVXS8FN9)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "858296BC-96D5-4AB0-BCE1-8FDB0E404CFA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "133D4F17-0C91-4C5F-BB9F-902612BD4569";
 				SDKROOT = iphoneos4.0;
 			};
 			name = "Ad-Hoc";
@@ -352,7 +354,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = "~/projects/thenexthope/hope_iphone/Entitlements.plist";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Oscar Koeroo (C8KVXS8FN9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Oscar Koeroo (C8KVXS8FN9)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EGI TF 2010_Prefix.pch";
@@ -367,12 +371,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Oscar Koeroo (C8KVXS8FN9)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "133D4F17-0C91-4C5F-BB9F-902612BD4569";
 				SDKROOT = iphoneos4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -382,12 +386,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Oscar Koeroo (C8KVXS8FN9)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "133D4F17-0C91-4C5F-BB9F-902612BD4569";
 				SDKROOT = iphoneos4.0;
 			};
 			name = Release;
