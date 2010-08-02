@@ -44,10 +44,12 @@ for session in conference.findAll('session'):
 
     this_session = {"id":           session.id.contents[0],
                     "title":        session.title.contents[0],
-                    #"description":  session.description.contents[0],
                     "timestamp":    parser.parse(session.startdate.string).strftime('%s'),
                     "location":     session.location.room.string,
                    }
+    if session.description.contents:
+        this_session["description"] = session.description.contents[0]
+
     this_session["speakers"] = []
     if session.convener:
         for user_tag in session.convener.findAll('user'):
