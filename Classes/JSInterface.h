@@ -14,8 +14,12 @@
 // #define SCHEDULE_JSON_URL @"http://www.thenexthope.org/hope_schedule/json.php"
 // #define NOTICE_JSON_URL @"http://www.thenexthope.org/hope_schedule/notice_json.php"
 
-#define SCHEDULE_JSON_URL @"http://www.nikhef.nl/~okoeroo/data.json"
-#define NOTICE_JSON_URL @"http://www.nikhef.nl/~okoeroo/notice.json"
+// #define SCHEDULE_JSON_URL @"http://www.nikhef.nl/~okoeroo/data.json"
+// #define NOTICE_JSON_URL @"http://www.nikhef.nl/~okoeroo/notice.json"
+
+#define SCHEDULE_JSON_URL @"http://www.nikhef.nl/tmpfiles/egi2010/data.json"
+#define NOTICE_JSON_URL @"http://www.nikhef.nl/tmpfiles/egi2010/notice.json"
+
 
 
 @interface JSInterface : NSObject {

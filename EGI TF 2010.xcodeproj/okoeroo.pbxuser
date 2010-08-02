@@ -192,6 +192,12 @@
 			FB652EE4120702640062F008 /* PBXTextBookmark */ = FB652EE4120702640062F008 /* PBXTextBookmark */;
 			FB652EE81207026B0062F008 /* PBXTextBookmark */ = FB652EE81207026B0062F008 /* PBXTextBookmark */;
 			FB652EEB120702840062F008 /* PBXTextBookmark */ = FB652EEB120702840062F008 /* PBXTextBookmark */;
+			FB652EEE120703010062F008 /* PBXTextBookmark */ = FB652EEE120703010062F008 /* PBXTextBookmark */;
+			FB652EFF12070AEC0062F008 /* PBXTextBookmark */ = FB652EFF12070AEC0062F008 /* PBXTextBookmark */;
+			FB652F0012070AEC0062F008 /* PBXTextBookmark */ = FB652F0012070AEC0062F008 /* PBXTextBookmark */;
+			FB652F0112070AEC0062F008 /* PBXTextBookmark */ = FB652F0112070AEC0062F008 /* PBXTextBookmark */;
+			FB652F0512070B0D0062F008 /* PBXTextBookmark */ = FB652F0512070B0D0062F008 /* PBXTextBookmark */;
+			FB652F0B12070BAB0062F008 /* PBXTextBookmark */ = FB652F0B12070BAB0062F008 /* PBXTextBookmark */;
 			FB79FA8B11FAC26100A4359B = FB79FA8B11FAC26100A4359B /* PlistBookmark */;
 			FB79FA9311FAC51800A4359B = FB79FA9311FAC51800A4359B /* PlistBookmark */;
 			FB8E638B11F9601700EA7FE5 = FB8E638B11F9601700EA7FE5 /* PBXBookmark */;
@@ -286,9 +292,9 @@
 	};
 	7540895111D3370C009F74A1 /* JSInterface.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1095, 875}}";
-			sepNavSelRange = "{567, 0}";
-			sepNavVisRange = "{0, 1202}";
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 898}}";
+			sepNavSelRange = "{737, 0}";
+			sepNavVisRange = "{0, 1364}";
 		};
 	};
 	7540895211D3370C009F74A1 /* JSInterface.m */ = {
@@ -321,8 +327,8 @@
 	};
 	7597133611D80C1500DD1919 /* filter.js */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1095, 875}}";
-			sepNavSelRange = "{1542, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1095, 898}}";
+			sepNavSelRange = "{465, 0}";
 			sepNavVisRange = "{0, 2104}";
 		};
 	};
@@ -624,7 +630,7 @@
 		fRef = 7540895111D3370C009F74A1 /* JSInterface.h */;
 		name = "JSInterface.h: 18";
 		rLen = 0;
-		rLoc = 567;
+		rLoc = 573;
 		rType = 0;
 		vrLen = 1202;
 		vrLoc = 0;
@@ -677,6 +683,66 @@
 		rLoc = 1542;
 		rType = 0;
 		vrLen = 2104;
+		vrLoc = 0;
+	};
+	FB652EEE120703010062F008 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7597133611D80C1500DD1919 /* filter.js */;
+		name = "filter.js: 42";
+		rLen = 0;
+		rLoc = 1542;
+		rType = 0;
+		vrLen = 2104;
+		vrLoc = 0;
+	};
+	FB652EFF12070AEC0062F008 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7597133611D80C1500DD1919 /* filter.js */;
+		name = "filter.js: 17";
+		rLen = 0;
+		rLoc = 465;
+		rType = 0;
+		vrLen = 2104;
+		vrLoc = 0;
+	};
+	FB652F0012070AEC0062F008 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7540895111D3370C009F74A1 /* JSInterface.h */;
+		name = "JSInterface.h: 18";
+		rLen = 0;
+		rLoc = 573;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 0;
+	};
+	FB652F0112070AEC0062F008 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7540895111D3370C009F74A1 /* JSInterface.h */;
+		name = "JSInterface.h: 20";
+		rLen = 0;
+		rLoc = 646;
+		rType = 0;
+		vrLen = 1364;
+		vrLoc = 0;
+	};
+	FB652F0512070B0D0062F008 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7540895111D3370C009F74A1 /* JSInterface.h */;
+		name = "JSInterface.h: 24";
+		rLen = 0;
+		rLoc = 737;
+		rType = 0;
+		vrLen = 1364;
+		vrLoc = 0;
+	};
+	FB652F0B12070BAB0062F008 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7540895111D3370C009F74A1 /* JSInterface.h */;
+		name = "JSInterface.h: 24";
+		rLen = 0;
+		rLoc = 737;
+		rType = 0;
+		vrLen = 1364;
 		vrLoc = 0;
 	};
 	FB79FA8B11FAC26100A4359B /* PlistBookmark */ = {
