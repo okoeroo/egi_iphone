@@ -11,8 +11,12 @@
 
 #import <Foundation/Foundation.h>
 
-#define SCHEDULE_JSON_URL @"http://www.thenexthope.org/hope_schedule/json.php"
-#define NOTICE_JSON_URL @"http://www.thenexthope.org/hope_schedule/notice_json.php"
+// #define SCHEDULE_JSON_URL @"http://www.thenexthope.org/hope_schedule/json.php"
+// #define NOTICE_JSON_URL @"http://www.thenexthope.org/hope_schedule/notice_json.php"
+
+#define SCHEDULE_JSON_URL @"http://www.nikhef.nl/~okoeroo/data.json"
+#define NOTICE_JSON_URL @"http://www.nikhef.nl/~okoeroo/notice.json"
+
 
 @interface JSInterface : NSObject {
 	NSMutableArray* preferences;
