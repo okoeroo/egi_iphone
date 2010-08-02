@@ -2,6 +2,9 @@
 
 import sys
 import urllib2
+import json
+import re
+from dateutil import parser
 from BeautifulSoup import BeautifulSoup
 from BeautifulSoup import BeautifulStoneSoup
 
@@ -27,20 +30,36 @@ def wget(url):
 def pull_conference(url):
     #page = wget(url)
     page = open('data.html').read()
+    foo = re.compile('<pre>(.*)</pre>', re.DOTALL)
 
-    doc = BeautifulSoup(page, convertEntities=BeautifulSoup.HTML_ENTITIES)
-    if doc:
-        iconf = doc.findAll('pre')
-        my_iconf = BeautifulStoneSoup(iconf[0].string)
-
-        return my_iconf
-
+    inner_data =  foo.search(page).groups()[0]
+    doc = BeautifulSoup(inner_data, convertEntities=BeautifulSoup.HTML_ENTITIES)
+    return BeautifulSoup(doc.prettify())
 
 conference = pull_conference(indico_url)
-#print conference
 
+sessions = []
 
 for session in conference.findAll('session'):
+
+    this_session = {"id":           session.id.contents[0],
+                    "title":        session.title.contents[0],
+                    #"description":  session.description.contents[0],
+                    "timestamp":    parser.parse(session.startdate.string).strftime('%s'),
+                    "location":     session.location.room.string,
+                   }
+    this_session["speakers"] = []
+    if session.convener:
+        for user_tag in session.convener.findAll('user'):
+            full_name = ("%s %s") % (user_tag.find('name')['first'], user_tag.find('name')['last'])
+            this_session["speakers"].append({"name": full_name})
+
+    sessions.append(this_session)
+
+outfile = open('data.json', 'w')
+outfile.write(json.dumps(sessions))
+"""
+    print this_session
     print "*-------------------------------------------------------------"
     #print session
     print "ID                     : " + session.id.contents[0]
@@ -124,4 +143,5 @@ for session in conference.findAll('session'):
     #print session.location.room
     #print "Location addr: " + session.location.address.string
 
+"""
 
