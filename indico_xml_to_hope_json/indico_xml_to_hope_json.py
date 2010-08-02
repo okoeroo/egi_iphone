@@ -52,7 +52,10 @@ for session in conference.findAll('session'):
     if session.convener:
         for user_tag in session.convener.findAll('user'):
             full_name = ("%s %s") % (user_tag.find('name')['first'], user_tag.find('name')['last'])
-            this_session["speakers"].append({"name": full_name})
+            user_info = {"name": full_name}
+            if user_tag.organization.contents:
+                user_info["description"] =  user_tag.organization.contents[0]
+            this_session["speakers"].append(user_info)
 
     sessions.append(this_session)
 
