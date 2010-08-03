@@ -231,6 +231,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -278,9 +280,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>34</integer>
-									<integer>14</integer>
-									<integer>9</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -315,8 +314,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -334,7 +331,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FBCD3E0F12082F4F001E8F2F</string>
+										<string>FBFE210A12083EED00FBBEA9</string>
 										<key>history</key>
 										<array>
 											<string>FBE8654011F4331B0071F354</string>
@@ -427,7 +424,7 @@
 											<string>FBCD3DD112082BA7001E8F2F</string>
 											<string>FBCD3DD212082BA7001E8F2F</string>
 											<string>FBCD3DFC12082D38001E8F2F</string>
-											<string>FBCD3DFD12082D38001E8F2F</string>
+											<string>FBCD3E2D12083E5F001E8F2F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -439,14 +436,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1156, 673}}</string>
+								<string>{{0, 0}, {1156, 670}}</string>
 								<key>RubberWindowFrame</key>
 								<string>408 359 1440 819 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>673pt</string>
+							<string>670pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -459,14 +456,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 678}, {1156, 100}}</string>
+								<string>{{0, 675}, {1156, 103}}</string>
 								<key>RubberWindowFrame</key>
 								<string>408 359 1440 819 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>100pt</string>
+							<string>103pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -485,9 +482,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FBCD3D3612080ECE001E8F2F</string>
+				<string>FBFE210B12083EED00FBBEA9</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>FBCD3D3712080ECE001E8F2F</string>
+				<string>FBFE210C12083EED00FBBEA9</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -643,11 +640,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>FBCD3D79120813B0001E8F2F</string>
-		<string>FBCD3D7A120813B0001E8F2F</string>
-		<string>1C530D57069F1CE1000CFCEE</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>FBE7BEAD11F42E920082682C</string>
 		<string>/Users/okoeroo/dvl/iPhone/egi_iphone/EGI TF 2010.xcodeproj</string>
 	</array>
@@ -729,7 +721,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>FBE7BEAD11F42E920082682C</string>
-				<string>FBCD3D3812080ECE001E8F2F</string>
+				<string>FBFE210D12083EED00FBBEA9</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
