@@ -42,38 +42,29 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
-var initialLocation;
-var amsterdam = new google.maps.LatLng(52.3746, 4.895879);
+
+var beursvanberlage = new google.maps.LatLng(52.375, 4.895879);
+var kmlUrl = 'http://www.nikhef.nl/tmpfiles/egi2010/EGITF2010.kmz';
+var map = null;
 
 
 function initialize() {
   var myOptions = {
-    zoom: 14,
-    mapTypeId: google.maps.MapTypeId.ROADMAP
+    zoom: 17,
+	center: beursvanberlage,
+    mapTypeId: google.maps.MapTypeId.HYBRID
   };
-  var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
   
+  map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+  
+  var kmlLayer = new google.maps.KmlLayer(kmlUrl, 
+									      {map:map, 
+										   preserveViewport:true,
+										   suppressInfoWindows:false});
+
   // Safari supports the W3C Geolocation method
-  if(navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function(position) {
-      initialLocation = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
-      var placeMarker = new google.maps.Marker({
-        position: initialLocation,
-        map: map,
-      });
-      map.setCenter(initialLocation);
-    }, function() {
-      handleNoGeolocation(browserSupportFlag);
-    });
-  } else {
-    // Browser doesn't support Geolocation
-    handleNoGeolocation();
-  }
-  
-  function handleNoGeolocation() {
-    initialLocation = amsterdam;
-    map.setCenter(initialLocation);
-  }
+  //if(navigator.geolocation) {
+  //}
 }
 </script>
 </head>
@@ -81,13 +72,22 @@ function initialize() {
     <script type="text/javascript">randomBackground();</script>
     <div id="wrapper">
         <h1>EGI Technical Forum 2010<br/>NOTICE</h1>
-		<h2>SSID: eduroam</h2>
-		
-		<h2>SSID: egi2010</h2>		
+	
         <div id="content"></div>
         <div id="loading"><img src="loading.png"></div>
         <div id="jsinterface"></div>
-  <div id="map_canvas" style="width:100%; height:50%"></div>
+		
+		<h2>SSID: eduroam</h2>
+		<div id="information">
+		TTLS/PAP over WPA(2) with username@domain and password.
+		</div>
+		
+		<h2>SSID: egi2010</h2>
+		<div id="information">
+		WPA/WPA2-PSK: d1|&lt;|&lt;3t13t3n
+		</div>
+		<br
+	<div id="map_canvas" style="width:100%; height:60%"></div>
 </body>
 </html>
 

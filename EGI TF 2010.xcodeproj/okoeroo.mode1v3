@@ -285,7 +285,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {262, 1064}}</string>
+							<string>{{0, 0}, {262, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -297,14 +297,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {279, 1082}}</string>
+						<string>{{0, 0}, {279, 778}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>262</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>0 55 1920 1123 0 0 1920 1178 </string>
+						<string>408 359 1440 819 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -334,7 +334,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FBCD3D4912080FB4001E8F2F</string>
+										<string>FBCD3E0F12082F4F001E8F2F</string>
 										<key>history</key>
 										<array>
 											<string>FBE8654011F4331B0071F354</string>
@@ -418,15 +418,16 @@
 											<string>FB652ED8120702640062F008</string>
 											<string>FB652ED9120702640062F008</string>
 											<string>FB652EDA120702640062F008</string>
-											<string>FB652EDC120702640062F008</string>
 											<string>FB652EE0120702640062F008</string>
 											<string>FB652EE2120702640062F008</string>
-											<string>FB652EFF12070AEC0062F008</string>
 											<string>FB4FEFAA12071FCD004DA9FB</string>
-											<string>FB4FEFAB12071FCD004DA9FB</string>
 											<string>FB4FEFAC12071FCD004DA9FB</string>
-											<string>FB4FEFC6120731CB004DA9FB</string>
-											<string>FBCD3D4012080F5A001E8F2F</string>
+											<string>FBCD3D8512081FD1001E8F2F</string>
+											<string>FBCD3DD012082BA7001E8F2F</string>
+											<string>FBCD3DD112082BA7001E8F2F</string>
+											<string>FBCD3DD212082BA7001E8F2F</string>
+											<string>FBCD3DFC12082D38001E8F2F</string>
+											<string>FBCD3DFD12082D38001E8F2F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -438,14 +439,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1636, 977}}</string>
+								<string>{{0, 0}, {1156, 673}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 55 1920 1123 0 0 1920 1178 </string>
+								<string>408 359 1440 819 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>977pt</string>
+							<string>673pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -458,9 +459,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 982}, {1636, 100}}</string>
+								<string>{{0, 678}, {1156, 100}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 55 1920 1123 0 0 1920 1178 </string>
+								<string>408 359 1440 819 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -469,7 +470,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>1636pt</string>
+					<string>1156pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -642,6 +643,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>FBCD3D79120813B0001E8F2F</string>
+		<string>FBCD3D7A120813B0001E8F2F</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
@@ -649,7 +652,7 @@
 		<string>/Users/okoeroo/dvl/iPhone/egi_iphone/EGI TF 2010.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>0 55 1920 1123 0 0 1920 1178 </string>
+	<string>408 359 1440 819 0 0 1920 1178 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
