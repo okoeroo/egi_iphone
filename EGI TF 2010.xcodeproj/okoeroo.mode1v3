@@ -275,6 +275,7 @@
 								<string>7597132A11D80C1500DD1919</string>
 								<string>7597133311D80C1500DD1919</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
+								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
@@ -319,7 +320,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>notice.html</string>
+								<string>EGI TF 2010_Prefix.pch</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,11 +328,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>notice.html</string>
+										<string>EGI TF 2010_Prefix.pch</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FBFE210A12083EED00FBBEA9</string>
+										<string>FBFE21C71208598B00FBBEA9</string>
 										<key>history</key>
 										<array>
 											<string>FBE8654011F4331B0071F354</string>
@@ -415,7 +416,6 @@
 											<string>FB652ED8120702640062F008</string>
 											<string>FB652ED9120702640062F008</string>
 											<string>FB652EDA120702640062F008</string>
-											<string>FB652EE0120702640062F008</string>
 											<string>FB652EE2120702640062F008</string>
 											<string>FB4FEFAA12071FCD004DA9FB</string>
 											<string>FB4FEFAC12071FCD004DA9FB</string>
@@ -424,7 +424,10 @@
 											<string>FBCD3DD112082BA7001E8F2F</string>
 											<string>FBCD3DD212082BA7001E8F2F</string>
 											<string>FBCD3DFC12082D38001E8F2F</string>
-											<string>FBCD3E2D12083E5F001E8F2F</string>
+											<string>FBFE21C31208598B00FBBEA9</string>
+											<string>FBFE21C41208598B00FBBEA9</string>
+											<string>FBFE21C51208598B00FBBEA9</string>
+											<string>FBFE21C61208598B00FBBEA9</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -436,14 +439,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1156, 670}}</string>
+								<string>{{0, 0}, {1156, 667}}</string>
 								<key>RubberWindowFrame</key>
 								<string>408 359 1440 819 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>670pt</string>
+							<string>667pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -456,14 +459,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 675}, {1156, 103}}</string>
+								<string>{{0, 672}, {1156, 106}}</string>
 								<key>RubberWindowFrame</key>
 								<string>408 359 1440 819 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>103pt</string>
+							<string>106pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -482,9 +485,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FBFE210B12083EED00FBBEA9</string>
+				<string>FBFE212F12084F0000FBBEA9</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>FBFE210C12083EED00FBBEA9</string>
+				<string>FBFE213012084F0000FBBEA9</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -640,6 +643,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>FBFE214D12084FB200FBBEA9</string>
+		<string>FBFE214F12084FB200FBBEA9</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>FBE7BEAD11F42E920082682C</string>
 		<string>/Users/okoeroo/dvl/iPhone/egi_iphone/EGI TF 2010.xcodeproj</string>
 	</array>
@@ -682,6 +689,8 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -721,7 +730,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>FBE7BEAD11F42E920082682C</string>
-				<string>FBFE210D12083EED00FBBEA9</string>
+				<string>FBFE213112084F0000FBBEA9</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -843,13 +852,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>FBCD3D3912080ECE001E8F2F</string>
+				<string>FBFE213212084F0000FBBEA9</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>FBCD3D3A12080ECE001E8F2F</string>
-				<string>FBCD3D3B12080ECE001E8F2F</string>
-				<string>FBCD3D3C12080ECE001E8F2F</string>
-				<string>FBCD3D3D12080ECE001E8F2F</string>
-				<string>FBCD3D3E12080ECE001E8F2F</string>
+				<string>FBFE213312084F0000FBBEA9</string>
+				<string>FBFE213412084F0000FBBEA9</string>
+				<string>FBFE213512084F0000FBBEA9</string>
+				<string>FBFE213612084F0000FBBEA9</string>
+				<string>FBFE213712084F0000FBBEA9</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -1003,7 +1012,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>FBCD3D3F12080ECE001E8F2F</string>
+				<string>FBFE213F12084F6700FBBEA9</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
