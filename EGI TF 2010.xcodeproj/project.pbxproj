@@ -84,6 +84,7 @@
 		75F0449811D5552E002C3DED /* button_touch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_touch.png; path = resources/button_touch.png; sourceTree = "<group>"; };
 		75F50ED311D589B100CCC5E9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = resources/icon.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* EGI TF 2010-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "EGI TF 2010-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		FBACD354120A905500B3BF2A /* Entitlements1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements1.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +153,7 @@
 				8D1107310486CEB800E47090 /* EGI TF 2010-Info.plist */,
 				75F50ED311D589B100CCC5E9 /* icon.png */,
 				75DC11A811DB090B00B3B528 /* Entitlements.plist */,
+				FBACD354120A905500B3BF2A /* Entitlements1.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -304,7 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_ENTITLEMENTS = "~/dvl/iPhone/egi_iphone/Entitlements1.plist";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Oscar Koeroo (C8KVXS8FN9)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Oscar Koeroo (C8KVXS8FN9)";
 				COPY_PHASE_STRIP = NO;
@@ -323,7 +325,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_ENTITLEMENTS = "~/dvl/iPhone/egi_iphone/Entitlements1.plist";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Oscar Koeroo (C8KVXS8FN9)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Oscar Koeroo (C8KVXS8FN9)";
 				COPY_PHASE_STRIP = YES;
@@ -360,7 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_ENTITLEMENTS = "~/dvl/iPhone/egi_iphone/Entitlements1.plist";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Oscar Koeroo (C8KVXS8FN9)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Oscar Koeroo (C8KVXS8FN9)";
 				COPY_PHASE_STRIP = YES;
@@ -408,6 +410,43 @@
 			};
 			name = Release;
 		};
+		FBACD339120A8EB300B3BF2A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Oscar Koeroo";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Oscar Koeroo";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "D51B5B07-6479-4C9C-9511-8792E37504CE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D51B5B07-6479-4C9C-9511-8792E37504CE";
+				SDKROOT = iphoneos4.0;
+			};
+			name = Distribution;
+		};
+		FBACD33A120A8EB300B3BF2A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Oscar Koeroo";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Oscar Koeroo";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 0.1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EGI TF 2010_Prefix.pch";
+				INFOPLIST_FILE = "EGI TF 2010-Info.plist";
+				PRODUCT_NAME = EGI_TF_2010;
+				PROVISIONING_PROFILE = "D51B5B07-6479-4C9C-9511-8792E37504CE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D51B5B07-6479-4C9C-9511-8792E37504CE";
+				SDKROOT = iphoneos4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -416,6 +455,7 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+				FBACD33A120A8EB300B3BF2A /* Distribution */,
 				75481EC811D84BE20098C467 /* Ad-Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -426,6 +466,7 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
+				FBACD339120A8EB300B3BF2A /* Distribution */,
 				75481EC711D84BE20098C467 /* Ad-Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
