@@ -37,10 +37,10 @@
 		7597135C11D80C2400DD1919 /* json.js in Resources */ = {isa = PBXBuildFile; fileRef = 7597133B11D80C1500DD1919 /* json.js */; };
 		7597135D11D80C2400DD1919 /* util.js in Resources */ = {isa = PBXBuildFile; fileRef = 7597133C11D80C1500DD1919 /* util.js */; };
 		7597143F11D821A200DD1919 /* notice.html in Resources */ = {isa = PBXBuildFile; fileRef = 7597143E11D821A200DD1919 /* notice.html */; };
-		75DC11A511DB051000B3B528 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 75DC11A411DB051000B3B528 /* iTunesArtwork */; };
 		75F0449711D5545B002C3DED /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F0449611D5545B002C3DED /* button.png */; };
 		75F0449911D5552E002C3DED /* button_touch.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F0449811D5552E002C3DED /* button_touch.png */; };
 		75F50ED411D589B100CCC5E9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F50ED311D589B100CCC5E9 /* icon.png */; };
+		FB7B8F1A1222D0C300B1EE96 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 75DC11A411DB051000B3B528 /* iTunesArtwork */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,7 +84,6 @@
 		75F0449811D5552E002C3DED /* button_touch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_touch.png; path = resources/button_touch.png; sourceTree = "<group>"; };
 		75F50ED311D589B100CCC5E9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = resources/icon.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* EGI TF 2010-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "EGI TF 2010-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		FBACD354120A905500B3BF2A /* Entitlements1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements1.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +152,6 @@
 				8D1107310486CEB800E47090 /* EGI TF 2010-Info.plist */,
 				75F50ED311D589B100CCC5E9 /* icon.png */,
 				75DC11A811DB090B00B3B528 /* Entitlements.plist */,
-				FBACD354120A905500B3BF2A /* Entitlements1.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -282,7 +280,7 @@
 				7597135411D80C1500DD1919 /* style.css in Resources */,
 				7597143F11D821A200DD1919 /* notice.html in Resources */,
 				75481EB711D848F10098C467 /* Default.png in Resources */,
-				75DC11A511DB051000B3B528 /* iTunesArtwork in Resources */,
+				FB7B8F1A1222D0C300B1EE96 /* iTunesArtwork in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,15 +395,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Oscar Koeroo (C8KVXS8FN9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Oscar Koeroo (C8KVXS8FN9)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "133D4F17-0C91-4C5F-BB9F-902612BD4569";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "133D4F17-0C91-4C5F-BB9F-902612BD4569";
 				SDKROOT = iphoneos4.0;
 			};
 			name = Release;
@@ -414,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Oscar Koeroo";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Oscar Koeroo";
 				GCC_C_LANGUAGE_STANDARD = c99;

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>EGITF2010</name>
+  <description><![CDATA[]]></description>
+  <NetworkLink>
+    <name>EGITF2010</name>
+    <Link>
+      <href>http://maps.google.nl/maps/ms?ie=UTF8&amp;hl=nl&amp;vps=1&amp;jsv=260d&amp;oe=UTF8&amp;msa=0&amp;msid=113766996065646023890.00048cda919091271b19b&amp;output=kml</href>
+    </Link>
+  </NetworkLink>
+</Document>
+</kml>

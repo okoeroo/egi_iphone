@@ -1,3 +1,15 @@
+/* 
+Font name: Rockwell Bold (for titles)
+           Rage Italic   (for tagline)
+
+Colors: 
+"EGI":       #6f8bc2
+"Technical": #440e0f
+"Forum":     #92532f
+"2010":      #c89c81 
+ */
+
+
 html, body {
     margin: 0;
     padding: 0;
@@ -32,16 +44,24 @@ body {
 h1 {
     text-align: center;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 18px;
     padding: 5px 0 0 0;
     margin: 0;
-    color: #00AAD2;
+    color: #6f8bc2;
+}
+
+#title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    font-size: arial;
+	color: #92532f;
 }
 
 h2 {
     text-align: left;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 17px;
     padding: 5px 0 0 0;
     margin: 0;
 	color: #B66902;
@@ -50,9 +70,9 @@ h2 {
 #information {
     text-align: left;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     font-size: arial;
-	color: #00AAD2;
+	color: #6f8bc2;
 	margin-left: 10;
     padding: 1px 0;
 }
