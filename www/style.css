@@ -16,8 +16,8 @@ html, body {
 }
 
 body {
-    color: #ffffff;
-    background-color: #ffffff;
+    color: #440e0f;
+    background-color: #f1f1f1;
     background-image: url("background1.jpg");
     background-position: top center;
     background-repeat: no-repeat;
@@ -64,24 +64,27 @@ h2 {
     font-size: 17px;
     padding: 5px 0 0 0;
     margin: 0;
-	color: #B66902;
+	color: #92532f;
 }
 
 #information {
     text-align: left;
     font-weight: bold;
     font-size: 15px;
-    font-size: arial;
 	color: #6f8bc2;
 	margin-left: 10;
     padding: 1px 0;
 }
 
 p.only {
-    margin: 20px auto 15px auto;
+    /* margin: 20px auto 15px auto; */
     padding: 20px;
-    background-color: #101010;
+    background-color: #f2f2f2;
     -webkit-border-radius: 20px;
+	margin: 20px 5px 5px 5px;
+	border: 1px solid #333333;
+	font-weight: bold;
+    font-size: 17px;
     opacity: 0.8;
     text-align: center;
 }
@@ -105,9 +108,9 @@ p#force-download {
     font-weight: bold;
     font-size: 18px;
     font-size: arial;
-    color: #EECBA4;
-    border-bottom: 2px solid #B66902;
-    border-top: 2px solid #B66902;
+    color: #c89c81;
+    border-bottom: 2px solid #92532f;
+    border-top: 2px solid #92532f;
     padding: 5px 0;
 }
 
@@ -115,9 +118,10 @@ p#force-download {
 }
 
 #filter .current {
-    color: #7B5229;
+    color: #92532f;
 }
 
+/*
 .talk {
     width: 300px;
     font-size: 17px;
@@ -128,6 +132,20 @@ p#force-download {
     border: 1px solid #333333;
     -webkit-border-radius: 10px;
 }
+*/
+
+.talk {
+    width: 300px;
+    font-size: 17px;
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    background-color: #f2f2f2;
+    opacity: 0.8;
+    border: 1px solid #333333;
+    -webkit-border-radius: 10px;
+}
+
+
 
 .talk .icons {
     width: 40px;
@@ -153,14 +171,14 @@ p#force-download {
 
 .talk .speaker {
     display: inline;
-    color: #AFAFAF;
+    color: #440e0f;
     font-size: 16px;
     text-decoration: underline;
 }
 
 .talk .meta {
     font-size: 16px;
-    color: #999999;
+    color: #440e0f;
 }
 
 .talk .description {
@@ -187,7 +205,7 @@ p#force-download {
 }
 
 #query {
-    color: #7B5229;
+    color: #440e0f;
     text-align: center;
 }
 
