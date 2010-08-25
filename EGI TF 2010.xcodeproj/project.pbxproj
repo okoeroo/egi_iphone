@@ -435,7 +435,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Oscar Koeroo";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Oscar Koeroo";
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 0.1;
+				CURRENT_PROJECT_VERSION = 1.0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EGI TF 2010_Prefix.pch";
 				INFOPLIST_FILE = "EGI TF 2010-Info.plist";
