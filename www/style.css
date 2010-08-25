@@ -22,7 +22,8 @@ body {
     background-position: top center;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    font-family: courier;
+/*    font-family: courier; */
+    font-family: helvetica;
 }
 
 #wrapper {
@@ -48,13 +49,14 @@ h1 {
     padding: 5px 0 0 0;
     margin: 0;
     color: #6f8bc2;
+	font-family: courier;
 }
 
 #title {
     text-align: center;
     font-weight: bold;
     font-size: 18px;
-    font-size: arial;
+	font-family: courier;
 	color: #92532f;
 }
 
@@ -62,17 +64,19 @@ h2 {
     text-align: left;
     font-weight: bold;
     font-size: 17px;
+/*	font-family: courier; */
     padding: 5px 0 0 0;
-    margin: 0;
+    margin: 3;
 	color: #92532f;
 }
 
 #information {
     text-align: left;
-    font-weight: bold;
-    font-size: 15px;
-	color: #6f8bc2;
-	margin-left: 10;
+  font-weight: bold;
+/*	font-family: courier;*/
+    font-size: 16px;
+	color: #5f6bd0;
+	margin-left: 20;
     padding: 1px 0;
 }
 
@@ -104,10 +108,10 @@ p#force-download {
 }
 
 #filter {
+	font-family: courier;
     text-align: center;
     font-weight: bold;
     font-size: 18px;
-    font-size: arial;
     color: #c89c81;
     border-bottom: 2px solid #92532f;
     border-top: 2px solid #92532f;
@@ -135,8 +139,9 @@ p#force-download {
 */
 
 .talk {
+	font-family: helvetica;
     width: 300px;
-    font-size: 17px;
+    font-size: 14px;
     margin: 0 5px 5px 5px;
     padding: 5px;
     background-color: #f2f2f2;
@@ -164,6 +169,7 @@ p#force-download {
 
 .talk .title {
     font-weight: bold;
+    font-size: 14px;
 }
 
 .talk .speakers {
@@ -172,12 +178,12 @@ p#force-download {
 .talk .speaker {
     display: inline;
     color: #440e0f;
-    font-size: 16px;
+    font-size: 13px;
     text-decoration: underline;
 }
 
 .talk .meta {
-    font-size: 16px;
+    font-size: 13px;
     color: #440e0f;
 }
 
@@ -192,7 +198,7 @@ p#force-download {
 .talk .speaker-bio {
     width: 243px;
     margin-top: 5px;
-    font-size: 16px;
+    font-size: 13px;
     padding: 5px;
     color: #000000;
     background-color: #FFFFFF;
