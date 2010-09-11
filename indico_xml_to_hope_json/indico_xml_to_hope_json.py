@@ -4,6 +4,7 @@ import sys
 import urllib2
 import json
 import re
+from datetime import timedelta
 from dateutil import parser
 from BeautifulSoup import BeautifulSoup
 from BeautifulSoup import BeautifulStoneSoup
@@ -42,9 +43,15 @@ sessions = []
 
 for session in conference.findAll('session'):
 
+    sessiontimeUTC = parser.parse(session.startdate.string)
+    timedt = timedelta(hours=2)
+    sessiontimeCEST = sessiontimeUTC + timedt
+
+#    print sessiontimeUTC.strftime('%s')
+#    print sessiontimeCEST.strftime('%s')
     this_session = {"id":           session.id.contents[0],
                     "title":        session.title.contents[0],
-                    "timestamp":    parser.parse(session.startdate.string).strftime('%s'),
+                    "timestamp":    sessiontimeCEST.strftime('%s'),
                     "location":     session.location.room.string,
                    }
     if session.description.contents:

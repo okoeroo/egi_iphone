@@ -2,6 +2,7 @@
 
 JSON="data.json"
 ENTERHOST="login2.nikhef.nl"
+ENTERHOST="login.nikhef.nl"
 PUBLISH_DIR="/www/tmpfiles/egi2010/"
 BACKUPDIR="${PUBLISH_DIR}/backup"
 
@@ -16,8 +17,8 @@ function publishingfailed() {
 }
 
 
-ssh ${ENTERHOST} cp ${PUBLISH_DIR}/${JSON} ${BACKUPDIR}/data.json.`date +%Y%m%d%H%M` || backupfailed
-
 python indico_xml_to_hope_json.py || exit 1
+
+ssh ${ENTERHOST} cp ${PUBLISH_DIR}/${JSON} ${BACKUPDIR}/data.json.`date +%Y%m%d%H%M` || backupfailed
 
 scp ${JSON} ${ENTERHOST}:${PUBLISH_DIR}/${JSON} || publishingfailed
