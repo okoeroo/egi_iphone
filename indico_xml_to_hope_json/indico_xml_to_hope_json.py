@@ -4,6 +4,7 @@ import sys
 import urllib2
 import json
 import re
+import cgi
 from datetime import timedelta
 from dateutil import parser
 from BeautifulSoup import BeautifulSoup
@@ -11,6 +12,8 @@ from BeautifulSoup import BeautifulStoneSoup
 
 
 indico_url = "https://www.egi.eu/indico/conferenceOtherViews.py?confId=48&view=xml&showDate=all&showSession=all&detailLevel=contribution"
+# jsonfile = 'testdata.json'
+jsonfile = 'data.json'
 
 
 def wget(url):
@@ -29,7 +32,7 @@ def wget(url):
 
 
 def pull_conference(url):
-    #page = wget(url)
+    page = wget(url)
     page = open('data.html').read()
     foo = re.compile('<pre>(.*)</pre>', re.DOTALL)
 
@@ -55,7 +58,10 @@ for session in conference.findAll('session'):
                     "location":     session.location.room.string,
                    }
     if session.description.contents:
-        this_session["description"] = session.description.contents[0]
+        descr = str(session.description.contents[0])
+        descr = re.sub('<.*>', ' ', descr)
+
+        this_session["description"] = descr
 
     this_session["speakers"] = []
     if session.convener:
@@ -68,7 +74,7 @@ for session in conference.findAll('session'):
 
     sessions.append(this_session)
 
-outfile = open('data.json', 'w')
+outfile = open(jsonfile, 'w')
 outfile.write(json.dumps(sessions))
 """
     print this_session

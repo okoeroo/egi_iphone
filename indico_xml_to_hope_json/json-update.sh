@@ -2,7 +2,7 @@
 
 JSON="data.json"
 ENTERHOST="login2.nikhef.nl"
-ENTERHOST="login.nikhef.nl"
+#ENTERHOST="login.nikhef.nl"
 PUBLISH_DIR="/www/tmpfiles/egi2010/"
 BACKUPDIR="${PUBLISH_DIR}/backup"
 
